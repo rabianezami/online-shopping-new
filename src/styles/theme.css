@@ -1,0 +1,139 @@
+
+/* -------Navbar ------------*/
+.app.dark-mode .glassNavbar {
+  background: #2c394b;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(8px);
+}
+
+.app.dark-mode a {
+  color: var(--dark-text) !important;
+}
+
+
+.app.dark-mode i {
+    color: var(--dark-text);
+   
+}
+
+.app.dark-mode .btn-custom:hover {
+    background-color: var(--dark-card);
+    border-color: #aaa !important;
+}
+
+.app.dark-mode .menu-header {
+    background: rgba(30, 30, 30, 0.1);
+    backdrop-filter: blur(8px);
+}
+
+.app.dark-mode .menu-header button {
+   background-color: var(--dark-text) !important;
+}
+
+.app.dark-mode .navbar-toggler-icon {
+    filter: invert(1); 
+}
+
+.app.dark-mode .menu-header button {
+  background-color: #2c394b !important;  
+  color: #fff !important;              
+  border-color: #444 !important;      
+}
+
+/* 🔹 افکت هنگام هاور */
+.app.dark-mode .menu-header button:hover {
+  background-color: #24292e !important;
+  color: #fff !important;
+  border-color: #666 !important;
+}
+
+
+/* ------------ --- Hero ------------*/
+.app.dark-mode .hero-section {
+  background: rgba(15, 15, 24, 0.2);
+}
+
+
+/* ------------ --- Products ------------*/
+.app.dark-mode .card-body {
+    background-color: var(--dark-card);
+    color: var(--dark-text);
+}
+
+.app.dark-mode .price-product {
+  color: var(--dark-text) !important;
+}
+
+.app.dark-mode .btn-viewAll {
+    background-color: #3B0270;
+    color: var(--dark-text);
+}
+
+.app.dark-mode .btn-viewAll:hover {
+    background-color: #5503a2;
+}
+
+.app.dark-mode .btn-scroll {
+    background-color: var(--dark-card);
+}
+
+.app.dark-mode .btn-light {
+    background-color: var(--dark-card) !important;
+}
+
+
+/* ------------ --- CONTACT ------------*/
+
+.app.dark-mode .contact-section {
+    background: var(--dark-bg);
+}
+
+.app.dark-mode .contact-form  {
+    background: var(--dark-card) !important;
+    color: var(--dark-text);
+}
+
+.app.dark-mode .contact-form .form-control,
+.app.dark-mode .input-group-text {
+    background: #2c394b;
+    color: var(--dark-text) !important;
+}
+
+.app.dark-mode .form-control::placeholder {
+    color: var(--dark-text) !important;
+    opacity: 0.7;
+}
+
+/* ------------ --- FOOTER ------------*/
+
+.app.dark-mode footer {
+    background: #202733;
+}
+/* .app.dark-mode .modal-content {
+    background-color: var(--dark-bg) !important;
+    color: var(--text-color);
+}
+
+.app.dark-mode .modal-header,
+.app.dark-mode .modal-body {
+    background-color: var(--dark-bg) ;
+    color: var(--text-color);
+}
+
+.app.dark-mode .list-group-item {
+    background-color: var(--dark-item-bg);
+    color: var(--text-color);
+}
+
+.app.dark-mode .form-control {
+    background-color: var(--dark-input-bg);
+    color: var(--text-color);
+    border-color: var(--dark-border);
+}
+
+.app.dark-mode .btn-card-fill {
+    background-color: var(--dark-btn-bg);
+    color: var(--text-color);
+} */
+
+

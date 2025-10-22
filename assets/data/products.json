@@ -1,0 +1,196 @@
+[
+  {
+    "id": 1,
+    "title": "Black – Simple & clean",
+    "price": "1500؋",
+    "oldPrice": "2000؋",
+    "image": "assets/images/black-dress.jpg",
+    "category": "women"
+  },
+   {
+    "id": 2,
+    "title": "Red – Eye-catching",
+    "price": "1800؋",
+    "oldPrice": "2300؋",
+    "image": "assets/images/red.jpg",
+    "category": "women"
+  },
+   {
+    "id": 3,
+    "title": "White – Minimal & graceful",
+    "price": "1000؋",
+    "oldPrice": "1300؋",
+    "image": "assets/images/brown-white.jpg",
+    "category": "women"
+  },
+   {
+    "id": 4,
+    "title": "Black – Sleek & stylish",
+    "price": "1500؋",
+    "oldPrice": "1700؋",
+    "image": "assets/images/black.jpg",
+    "category": "women"
+  },
+   {
+    "id": 5,
+    "title": "Black – Classic look",
+    "price": "1800؋",
+    "oldPrice": "2700؋",
+    "image": "assets/images/long-dress.jpg",
+    "category": "women"
+  },
+   {
+    "id": 6,
+    "title": "Black – Elegant & chic",
+    "price": "1200؋",
+    "oldPrice": "1600؋",
+    "image": "assets/images/nice-derss-black.jpg",
+    "category": "women"
+  },
+   {
+    "id": 7,
+    "title": "Red – Lively & fun",
+    "price": "1100؋",
+    "oldPrice": "1400؋",
+    "image": "assets/images/red-dark.jpg",
+    "category": "women"
+  },
+   {
+    "id": 8,
+    "title": "Red – Bold & vibrant",
+    "price": "1100؋",
+    "oldPrice": "1400؋",
+    "image": "assets/images/red-darkk.jpg",
+    "category": "women"
+  },
+   {
+    "id": 9,
+    "title": "Hands in pocket, relaxed mood",
+    "price": "1500؋",
+    "oldPrice": "2000؋",
+    "image": "assets/images/gray-black.jpg",
+    "category": "men"
+  },
+   {
+    "id": 10,
+    "title": "Open collar, fresh and casual",
+    "price": "1800؋",
+    "oldPrice": "2300؋",
+    "image": "assets/images/gray-white.jpg",
+    "category": "men"
+  },
+   {
+    "id": 11,
+    "title": "Stylish kurta, minimal touch",
+    "price": "1000؋",
+    "oldPrice": "1300؋",
+    "image": "assets/images/blue-white.jpg",
+    "category": "men"
+  },
+   {
+    "id": 12,
+    "title": "Light kurta, clean look",
+    "price": "1500؋",
+    "oldPrice": "1700؋",
+    "image": "assets/images/brown.jpg",
+    "category": "men"
+  },
+   {
+    "id": 13,
+    "title": "Black – Classic look",
+    "price": "1800؋",
+    "oldPrice": "2700؋",
+    "image": "assets/images/white.jpg",
+    "category": "men"
+  },
+   {
+    "id": 14,
+    "title": "Dark tones, elegant touch",
+    "price": "1200؋",
+    "oldPrice": "1600؋",
+    "image": "assets/images/green-gray.jpg",
+    "category": "men"
+  },
+   {
+    "id": 15,
+    "title": "Bright outfit, peaceful mood",
+    "price": "1100؋",
+    "oldPrice": "1400؋",
+    "image": "assets/images/t-shirt.jpg",
+    "category": "men"
+  },
+   {
+    "id": 16,
+    "title": "Black and white, pure elegance",
+    "price": "1100؋",
+    "oldPrice": "1400؋",
+    "image": "assets/images/r-shirt-dark.jpg",
+    "category": "men"
+  },
+   {
+    "id": 17,
+    "title": "Hands in pocket, relaxed mood",
+    "price": "1500؋",
+    "oldPrice": "2000؋",
+    "image": "assets/images/kid-blue-dress.jpg",
+    "category": "kids"
+  },
+   {
+    "id": 18,
+    "title": "Open collar, fresh and casual",
+    "price": "1800؋",
+    "oldPrice": "2300؋",
+    "image": "assets/images/boy-kid.jpg",
+    "category": "kids"
+  },
+   {
+    "id": 19,
+    "title": "Stylish kurta, minimal touch",
+    "price": "1000؋",
+    "oldPrice": "1300؋",
+    "image": "assets/images/boy-kid-dark.jpg",
+    "category": "kids"
+  },
+   {
+    "id": 20,
+    "title": "Light kurta, clean look",
+    "price": "1500؋",
+    "oldPrice": "1700؋",
+    "image": "assets/images/kid-dress.jpg",
+    "category": "kids"
+  },
+   {
+    "id": 21,
+    "title": "Black – Classic look",
+    "price": "1800؋",
+    "oldPrice": "2700؋",
+    "image": "assets/images/kid-glup.jpg",
+    "category": "kids"
+  },
+   {
+    "id": 22,
+    "title": "Dark tones, elegant touch",
+    "price": "1200؋",
+    "oldPrice": "1600؋",
+    "image": "assets/images/kide-white-dress.jpg",
+    "category": "kids"
+  },
+   {
+    "id": 23,
+    "title": "Bright outfit, peaceful mood",
+    "price": "1100؋",
+    "oldPrice": "1400؋",
+    "image": "assets/images/kid-dark-girl.jpg",
+    "category": "kids"
+  },
+   {
+    "id": 24,
+    "title": "Black and white, pure elegance",
+    "price": "1100؋",
+    "oldPrice": "1400؋",
+    "image": "assets/images/kide-blose.jpg",
+    "category": "kids"
+  }
+  
+  
+]

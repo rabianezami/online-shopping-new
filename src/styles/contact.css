@@ -1,0 +1,27 @@
+.contact-section {
+  min-height: 100vh; /* صفحه کامل */
+  display: flex;
+  justify-content: center; /* افقی وسط */
+  align-items: center; /* عمودی وسط */
+  background-color: #f8f9fa; /* رنگ نرم پس‌زمینه */
+}
+
+/* چون container داخلش است، اجازه بده فرم محدود بماند */
+.contact-section .container {
+  max-width: 700px;
+  width: 100%;
+}
+
+
+.btn-card-fill {
+  background-color: #3B0270;
+  color: white;
+}
+
+.btn-card-fill:hover {
+  background-color: #5503a2 !important;
+  color: white;
+  transition: none;
+}
+
+

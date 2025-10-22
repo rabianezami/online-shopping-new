@@ -1,0 +1,21 @@
+
+:root {
+  --text: #1f2937;
+  --text-light: #6b7280;
+  --bg: #f9fafb;
+  --card: #ffffff;
+  --dark-bg: #1b2430;
+  --dark-card: #2b3444;
+  --dark-text: #ffffff;
+  --dark-section: #222831;
+}
+
+.app.dark-mode {
+  background: var(--dark-bg);
+  color: var(--dark-text) !important;
+}
+
+.custom-footer {
+  background: #1d0136;
+  color: white;
+}

@@ -1,0 +1,39 @@
+
+.btn-card {
+  border-color: #3B0270;
+  color: #3B0270;
+}
+
+.btn-card:hover {
+  background-color: #3B0270;
+  color: white;
+}
+
+
+.btn-card-fill {
+  background-color: #3B0270;
+  color: white;
+}
+
+.btn-card-fill:hover {
+  background-color:#5503a2 !important;
+  color: white;
+  transition: none;
+}
+
+ .btn-outline {
+  border-color: #3B0270;
+  color: #3B0270;
+
+ }
+
+ .btn-outline:hover {
+  background-color: #3B0270;
+  color: white;
+ }
+
+
+
+
+
+

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Login | Nova Shop</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="./src/styles/login.css">
+</head>
+<body>
+  <main class="login-container">
+    <h1>Login to Online Shopping</h1>
+    <form id="loginForm">
+      <div class="form-group">
+        <input type="text" id="username" placeholder=" " required>
+        <label for="username">Username</label>
+        <span class="error-message" id="userError"></span>
+      </div>
+      <div class="form-group">
+        <input type="password" id="password" placeholder=" " required>
+        <label for="password">Password</label>
+        <span class="toggle-password" id="togglePassword">👁️</span>
+        <span class="error-message" id="passError"></span>
+      </div>
+      <button type="submit">Login</button>
+    </form>
+  </main>
+
+  <script type="module" src="./src/modules/login.js"></script>
+</body>
+</html>
