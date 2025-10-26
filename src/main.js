@@ -1,33 +1,49 @@
-import { initAuth } from "./modules/auth.js"; // اعتبارسنجی کاربر
-import { renderNavbar } from "./modules/navbar.js"; // نمایش ناوبار
-import { renderHeroSection } from "./modules/hero.js"; // نمایش بخش هرو
-import { renderCheckout } from "./modules/checkout-modal.js"; // نمایش چک‌اوت
-import { renderProductsBase } from "./modules/products-base.js"; // نمایش محصولات
-import { initThemeToggle } from "./modules/theme.js"; // فعال‌سازی دارک/لایت مود
-import { renderContactForm } from "./modules/contact.js"; // فرم تماس
+import { initAuth } from "./modules/auth.js";
+import { renderNavbar } from "./modules/navbar.js";
+import { renderHeroSection } from "./modules/hero.js";
+import { renderCheckout } from "./modules/checkout-modal.js";
+import { renderProductsBase } from "./modules/products-base.js";
+import { initThemeToggle } from "./modules/theme.js";
+import { renderContactForm } from "./modules/contact.js";
 import { renderFooter } from "./modules/footer.js";
 
-document.addEventListener("DOMContentLoaded", () => {
-  const navbar = document.getElementById("navbar"); // عنصر ناوبار
-  const hero = document.getElementById("hero"); // عنصر هرو
-  const products = document.getElementById("products"); // عنصر محصولات
-  const contact = document.getElementById("contact-section"); //  عنصر تماس
+// ✅ اضافه کردن ماژول چت بات
+import { Chatbot } from "./modules/chatbot.js";
+
+document.addEventListener("DOMContentLoaded", async () => {
+  const navbar = document.getElementById("navbar");
+  const hero = document.getElementById("hero");
+  const productsEl = document.getElementById("products");
+  const contact = document.getElementById("contact-section");
   const footerContainer = document.getElementById("footer-container");
 
-  renderNavbar(navbar); // رندر ناوبار
-  initAuth(); // اعتبارسنجی کاربر
-  initThemeToggle(); // فعال‌سازی دارک/لایت مود
+  renderNavbar(navbar);
+  initAuth();
+  initThemeToggle();
 
-  renderHeroSection(hero); // رندر بخش هرو
-  renderCheckout(document.body); // رندر چک‌اوت
+  renderHeroSection(hero);
+  renderCheckout(document.body);
 
-  const categories = ["men", "women", "kids"]; // دسته‌بندی محصولات
+  const categories = ["men", "women", "kids"];
+  const products = []; // آرایه محصولات واقعی خودت
   categories.forEach(cat => {
-    const section = document.createElement("div"); // ساخت بخش جدید برای هر دسته
-    products.appendChild(section); // اضافه کردن به بخش محصولات
-    renderProductsBase(section, cat, { enableDrag: true }); // رندر محصولات دسته با امکان درگ
+    const section = document.createElement("div");
+    productsEl.appendChild(section);
+    renderProductsBase(section, cat, { enableDrag: true });
+    // برای چت بات، محصولات دسته را به آرایه اضافه کن
+    const prodList = Array.from(section.querySelectorAll(".product-card")).map(card => ({
+      title: card.dataset.title,
+      category: cat,
+      price: card.dataset.price,
+      image: card.dataset.image,
+      href: card.dataset.href
+    }));
+    products.push(...prodList);
   });
 
-  renderContactForm(contact); // رندر تماس
-  renderFooter(footerContainer); // رندر فوتر
+  renderContactForm(contact);
+  renderFooter(footerContainer);
+
+  // ✅ ایجاد و نمایش چت بات
+  new Chatbot("chatbot-container", products);
 });
